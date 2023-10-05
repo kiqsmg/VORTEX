@@ -15,7 +15,7 @@ export default createGlobalStyle`
     }
 
     border-style, :-ms-input-placeholder, :no-button, textarea {
-        font-family: 'Poppins', serif;  //Não sei se vai dar certo
+        font-family: 'Roboto Slab', serif;  //Não sei se vai dar certo mudar pra 
         font-size: 12px;
         outline: none;
     }
