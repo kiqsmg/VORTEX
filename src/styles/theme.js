@@ -1,7 +1,7 @@
 export default {
     COLORS: {
         BACKGROUND_main: "linear-gradient(0deg, #0F144C, #0F144C)",
-        BACKGROUND_header: "rgba(24, 42, 105, 1)",
+        BACKGROUND_header: "#041059",
         BACKGROUND_lighter: "rgba(24, 42, 105, 1)",
 
         BACKGROUND_grey: "rgba(185, 185, 185, 1)",
