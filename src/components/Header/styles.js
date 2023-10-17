@@ -37,7 +37,10 @@ export const Section02 = styled.header`
 
     list-style-type: none;
 
-    
+    >li:hover {
+        scale: 1.1;
+        transition: 0.3s;
+    }
 
     > li:nth-child(2) {
         margin-left: 100px;
@@ -64,6 +67,11 @@ export const Section03 = styled.header`
     align-items: center;
 
     list-style-type: none;
+
+    > li:hover {
+        scale: 1.1;
+        transition: 0.3s;
+    }
 
     > li:nth-child(1) {
         padding: 6px 15px;
