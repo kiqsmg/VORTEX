@@ -9,4 +9,19 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_main};
+    color:black;
+
+    .swiper {
+        width: 100vw;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100vw;
+        height: 400px;
+        object-fit: cover;
+    }
+
+
 `;
