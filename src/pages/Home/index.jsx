@@ -4,6 +4,7 @@ import { Container } from './styles';
 //Components Imports
 import { Header } from '../../components/Header';
 import { Portfolio } from '../../components/Portfolio';
+import { About } from '../../components/About';
 
 //Strategic Imports
 
@@ -66,8 +67,7 @@ export function Home() {
 
             <Portfolio />
 
-
-
+            <About />
 
 
         </Container>
