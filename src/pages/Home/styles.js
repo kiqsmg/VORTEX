@@ -4,23 +4,36 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 100%;
-    height: 100vh;
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_main};
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_lighter};
     color:black;
 
     .swiper {
-        width: 100vw;
+        width: 100%;
     }
 
     .swiper-slide img {
         display: block;
         width: 100vw;
-        height: 400px;
+        height: 300px;
         object-fit: cover;
+        
+    }
+
+    .swiper h3 {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+
+    .swiper p {
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 100px;
     }
 
 
