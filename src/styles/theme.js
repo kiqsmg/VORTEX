@@ -10,7 +10,7 @@ export default {
         BACKGROUND_light_blue: "rgba(0, 240, 255, 1)",
         BACKGROUND_dark_blue: "rgba(14, 20, 76, 1)",
 
-        BACKGROUND_assets: "rgba(88, 109, 186, 1)",
+        BACKGROUND_assets: "rgba(28, 44, 102, 1)",
         BACKGROUND_team: "rgba(51, 87, 120, 1)",
 
 
@@ -18,5 +18,7 @@ export default {
         PURPLE: "rgba(125, 47, 224, 1)",
         OCEAN_GREEN: "rgba(23, 239, 187, 1)",
         RED: "rgba(224, 47, 47, 1)",
+
+        LINE_COLOR: "rgba(132, 138, 186, 1)",
     }
 };

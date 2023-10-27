@@ -1,5 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; //-client
+import ReactDOM from 'react-dom/client';
+
+//import { AuthProvider } from './hooks/auth';
 import GlobalStyle from './styles/global';
 import { ThemeProvider } from 'styled-components';
 
