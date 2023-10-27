@@ -17,37 +17,40 @@ export function Portfolio() {
 
             <div className='portfolioAssets'>
                 <h3>Your assets</h3>
-                <div className='firstColumn'>
-                    <p>Name</p>
-                    <p>Bitcoin</p>
-                    <p>Etherium</p>
-                    <p>Litecoin</p>
-                    <p>Uniswap</p>
-                </div>
 
-                <div className='secondColumn'>
-                    <p>Price</p>
-                    <p>$15,274.25</p>
-                    <p>$404.11</p>
-                    <p>$38.36</p>
-                    <p>$1.88</p>
-                </div>
+                <table border="1" className='assets'>
+                    <td className='firstColumn'>
+                        <tr>Name</tr>
+                        <tr>Bitcoin</tr>
+                        <tr>Etherium</tr>
+                        <tr>Litecoin</tr>
+                        <tr>Uniswatd</tr>
+                    </td>
 
-                <div className='thirdColumn'>
-                    <p>Variation</p>
-                    <p>+2.09%</p>
-                    <p>+4.63%</p>
-                    <p>+2.68%</p>
-                    <p>-30.22%</p>
-                </div>
+                    <td className='secondColumn'>
+                        <tr>trrice</tr>
+                        <tr>$15,274.25</tr>
+                        <tr>$404.11</tr>
+                        <tr>$38.36</tr>
+                        <tr>$1.88</tr>
+                    </td>
 
-                <div className='fourthColumn'>
-                    <p>Wallet</p>
-                    <p>$15,525.04</p>
-                    <p>$1,730.81</p>
-                    <p>$1,971.30</p>
-                    <p>$783.11</p>
-                </div>
+                    <td className='thirdColumn'>
+                        <tr>Variation</tr>
+                        <tr>+2.09%</tr>
+                        <tr>+4.63%</tr>
+                        <tr>+2.68%</tr>
+                        <tr>-30.22%</tr>
+                    </td>
+
+                    <td className='fourthColumn'>
+                        <tr>Wallet</tr>
+                        <tr>$15,525.04</tr>
+                        <tr>$1,730.81</tr>
+                        <tr>$1,971.30</tr>
+                        <tr>$783.11</tr>
+                    </td>
+                </table>
 
             </div>
         </Container>
