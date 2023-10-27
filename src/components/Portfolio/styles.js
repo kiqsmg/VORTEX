@@ -14,7 +14,7 @@ export const Container = styled.header`
     border-radius: 20px;
     box-shadow: 0.3em 0.3em 1em black;
 
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_dark_blue};
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_assets};
     font-family: 'Poppins', 'san-serif';
 
 
@@ -66,7 +66,7 @@ export const Container = styled.header`
         height: 300px;
 
         border-radius: 10px;
-        border: solid 2px white;
+        border: solid 2px ${({ theme }) => theme.COLORS.LINE_COLOR};
 
 
         padding: 20px 50px 20px 50px;
@@ -74,19 +74,45 @@ export const Container = styled.header`
         color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
+    .portfolioAssets h3 {
+        margin: 10px 0px 10px 0px;
+    }
+
     .portfolioAssets .assets{
-        display: flex;
         width: 100%;
         height: 100%;
-
+        border: none;
         
         justify-content: space-between;
 
     }
 
-    table, tr, td {
-        border: 1px solid white;
-        border-collapse: collapse;
+    table.assets th.firstColumn, th.secondColumn, th.thirdColumn, th.fourthColumn {
+        text-align: left;
+    }
+
+    table.assets {
+        border-collapse: collapse; /* Remove as bordas exteriores */
+        width: 100%;
+    }
+    
+    table.assets th:nth-child(1), table.assets th:nth-child(2), table.assets th:nth-child(3), table.assets th:nth-child(4){
+        border: none;
+    }
+
+    table.assets th, table.assets td {
+        border: 1px solid ${({ theme }) => theme.COLORS.LINE_COLOR}; /* Adiciona uma borda fina nas células internas */
+        padding: 8px;
+        border-left: none;
+        border-right: none;
+    }
+
+    table.assets td:nth-child(3) {
+        color: greenyellow;
+    }
+
+    table.assets tr:nth-child(5) td:nth-child(3){
+        color: red;
     }
 
 `;
