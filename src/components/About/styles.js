@@ -56,7 +56,7 @@ export const Container = styled.header`
         background: none;
         font-size: 20px;
         font-weight: 600;
-        padding: 5px 10px;
+        padding: 10px;
         border-radius: 20px;
 
         color: ${({ theme }) => theme.COLORS.PURPLE};
