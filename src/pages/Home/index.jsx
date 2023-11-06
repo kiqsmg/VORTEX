@@ -5,6 +5,7 @@ import { Container } from './styles';
 import { Header } from '../../components/Header';
 import { Portfolio } from '../../components/Portfolio';
 import { About } from '../../components/About';
+import { BotCard } from '../../components/BotCard';
 
 //Strategic Imports
 
@@ -68,6 +69,24 @@ export function Home() {
             <Portfolio />
 
             <About />
+
+            <div className='botSection'>
+                <div>
+                    <h2>Test different Bots</h2>
+                </div>
+
+                <div className='listBots'>
+                    <BotCard />
+                    <BotCard />
+                    <BotCard />
+                    <BotCard />
+                    <BotCard />
+                    <BotCard />
+                </div>
+            </div>
+
+
+            
 
 
         </Container>

@@ -36,5 +36,31 @@ export const Container = styled.div`
         margin-left: 100px;
     }
 
+    .botSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .botSection div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botSection h2 {
+        color: white;
+        font-size: 32px;
+        font-family: 'Poppins', 'san-serif';
+    }
+
+
+    .botSection .listBots {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 
 `;
