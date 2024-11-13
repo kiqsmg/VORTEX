@@ -45,19 +45,11 @@ The Vortex project is a software developed in Python to be able to carry out cry
 👉 **Responsive page**: Secure responsiveness to many different screens.
 
 
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-
 ## <a name="links">🔗 Links</a>
 
-The Youtube video that inspired this landing page structure: [here](https://nanosattracker.netlify.app/)
+The Youtube video that inspired this landing page structure: [here](https://youtu.be/_oO4Qi5aVZs?si=_TdVl4jymIHSVIQW)
+
+Final project: [here](https://vortex-trade.netlify.app/)
 
 
 ## Releases
