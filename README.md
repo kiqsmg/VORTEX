@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://sygonn.netlify.app/" target="_blank">
-      <img src="https://i.postimg.cc/5NR9bxFM/Sora-README.png" alt="Project Banner">
+    <img width="80%" src="https://github.com/kiqsmg/VORTEX/capa.png">
     </a>
   <br />
   <h3 align="center">VORTEX platform</h3>
